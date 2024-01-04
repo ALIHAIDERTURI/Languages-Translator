@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ /***********styling for translator**************** */
+
+.opt{
+    border: none !important;
+    width: fit-content;
+  }
+  
+  .goog-te-combo{
+    /* border: 1px solid #fff; */
+    /* border-radius: .5em; */
+    /* width: 20px; */
+    height: fit-content;
+    /* padding: 5px; */
+    background-color: #CAC3BA !important;
+  }
+  .skiptranslate {
+      /* using this we will give it a position  */
+    position: absolute;
+    top: 10px;
+    /* right: 10px; */
+  
+  }
+  
+  @media (max-width:992px){
+    .skiptranslate{
+      position: static;
+      text-align: start;
+    }
+  
+  }
+  
+  .VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  .VIpgJd-ZVi9od-ORHb {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  .skiptranslate span {
+    display: none;
+  }
+  
+  .skiptranslate select {
+    /* padding: 1rem; */
+    border-radius: 15px;
+  }
+  
+  .skiptranslate {
+    font-size: 0 !important;
+  }
